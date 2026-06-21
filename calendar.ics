@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Grace Frank//gracefrank.ai//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Grace Frank — Friday Sessions
+X-WR-CALDESC:Join Grace Frank every Friday at 9AM EST
+
+BEGIN:VEVENT
+UID:friday-session@gracefrank.ai
+DTSTART;TZID=America/New_York:20260626T090000
+DTEND;TZID=America/New_York:20260626T100000
+RRULE:FREQ=WEEKLY;BYDAY=FR
+SUMMARY:Grace Frank — Friday Session
+DESCRIPTION:Join every Friday at 9AM EST.\nLink: https://gracefrank.ai
+URL:https://gracefrank.ai
+ORGANIZER;CN=Grace Frank:mailto:hello@gracefrank.ai
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Grace Frank Friday Session starts in 30 minutes!
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR
