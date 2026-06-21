@@ -20,4 +20,32 @@ DESCRIPTION:Test Recurring Live Session starts in 30 minutes!
 END:VALARM
 END:VEVENT
 
+BEGIN:VEVENT
+UID:test-recurring-live-session@gracefrank.ai
+RECURRENCE-ID;TZID=America/New_York:20260626T090000
+DTSTART;TZID=America/New_York:20260626T090000
+DTEND;TZID=America/New_York:20260626T100000
+SUMMARY:How to Use Claude for Business
+DESCRIPTION:This week we're covering how to use Claude for business — practical use cases, prompting tips, and real workflows you can start using today.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Session starts in 30 minutes!
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:test-recurring-live-session@gracefrank.ai
+RECURRENCE-ID;TZID=America/New_York:20260703T090000
+DTSTART;TZID=America/New_York:20260703T090000
+DTEND;TZID=America/New_York:20260703T100000
+SUMMARY:Looping Agentic Workflow
+DESCRIPTION:This week we're diving into looping agentic workflows — how to build AI agents that iterate, self-correct, and complete complex multi-step tasks automatically.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Session starts in 30 minutes!
+END:VALARM
+END:VEVENT
+
 END:VCALENDAR
